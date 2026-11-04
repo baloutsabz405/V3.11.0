@@ -24,4 +24,4 @@ COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
 # Railway پورت رو از طریق متغیر $PORT تزریق می‌کند
-CMD ["/start.sh"]
+CMD ["bash", "/start.sh"]
